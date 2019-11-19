@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bxslider-4-4.2.12/src/css/jquery.bxslider.css">
+<title>BxSlider</title>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+    $('.bxslider').bxSlider({
+    ticker: true,
+    });
+});
+
+$(document).ready(function(){
+    $('.bxslider2').bxSlider({
+    ticker: true,
+    speed: 10000
+    });
+});
+</script>
+<ul class="bxslider">
+    <li><img src="./img/1.jpg" title="夜景"></li>
+    <li><img src="./img/2.jpg" title="海"></li>
+    <li><img src="./img/3.jpg" title="空"></li>
+</ul>
+<br>
+
+<ul class="bxslider2">
+    <li><img src="./img/1.jpg" title="夜景"></li>
+    <li><img src="./img/2.jpg" title="海"></li>
+    <li><img src="./img/3.jpg" title="空"></li>
+</ul>
+</body>
+</html>
