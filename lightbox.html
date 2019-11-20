@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lightbox2-2.11.1/dist/css/lightbox.css">
+    <title>Document</title>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./lightbox2-2.11.1/dist/js/lightbox.js"></script>
+</head>
+<body>
+    <a href="./img/a.jpg" data-lightbox="grop"><img src="./img/a.jpg"></a>
+    <a href="./img/b.jpg" data-lightbox="grop"><img src="./img/b.jpg"></a>
+    <a href="./img/c.jpg" data-lightbox="grop"><img src="./img/c.jpg"></a>
+
+    <a href="./img/a.jpg" data-lightbox="image-1" data-title="夜景"></a>
+    <script>
+    lightbox.option({
+        'warapAround': true,
+        'alwaysShowNavOnTouchDevices': true
+    })
+    </script>
+</body>
+</html>
